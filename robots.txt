@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Allow crawling of all content
+Allow: /images/
+Allow: /scripts/
+Allow: /styles/
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://joliestylish.com/sitemap.xml
